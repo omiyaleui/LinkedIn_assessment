@@ -1,0 +1,529 @@
+body{
+font-family: 'Source Sans Pro', sans-serif;
+background-color: rgb(216, 215, 215);
+}
+
+.navigation-bar{
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    padding-bottom: 20px;
+}
+
+.navigation-bar .col-md-10{
+    margin: 0rem 0rem 0.10rem 0rem ;
+    background-color: white;
+    max-width: 1140px;
+    height: 60px;
+    padding: 5px 0px 10px;
+    position: absolute;
+    left: 132px;
+}
+
+.navbar{
+    height:60px;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:rgb(2, 96, 184);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active >.nav-link{
+    color:rgb(2, 96, 184);
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    border-radius: 0.00rem;
+}
+
+.dropdown-item{
+    color: rgb(2, 96, 184);
+    padding: .45rem 1.25rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 960;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.075);
+    padding: 0px 0px;
+    border-top: none;
+    box-shadow: .125rem 0rem .25rem 0rem rgba(0,0,0,.075);
+    position: relative;
+    top: 60px;
+}
+
+.background-box{
+    height: 450px;
+}
+
+.background-cover{
+    background-image: url("images/Linkedin-Cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    position: relative;
+}
+.user-image img{
+    border-radius: 45%;
+    width: 150px;
+    border: 7px solid rgb(247, 244, 244);
+    position: absolute;
+    top: 150px;
+    left: 42px;
+}
+
+.form-body{
+    padding: 15px 40px 0px 40px;
+}
+
+.fullnames{
+    padding-bottom: 30px;
+}
+
+.form-full-names .col-md-6{
+    padding-right: 0px;
+    position: relative;
+}
+
+.fullnames .form-control{
+    margin: 10px 0px;
+    border: 1px solid rgb(94, 93, 93);
+}
+
+#form-control-2{
+  padding-right: 15px;
+}
+
+.form-group .form-control{
+    margin: 10px 0px 45px 0px;
+}
+
+#form-control-birth-day{
+  padding-bottom: 13px;
+}
+
+.Headline{
+    padding-bottom: 30px;
+}
+
+.Education.form-control{
+    border: 1px solid rgb(94, 93, 93);
+}
+
+.Headline .form-control{
+    border: 1px solid rgb(94, 93, 93);
+}
+
+.aisterics{
+    color: rgb(67, 129, 243);
+}
+
+.Education >div{
+    margin: 12px 0px;
+}
+
+.current-position >div{
+    margin: 12px 0px;
+}
+
+.custom-control{
+    padding-left: 1.60rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.custom-control-label{
+    padding-top: 0.30rem;
+}
+
+.Country{
+    padding-top: 1rem;
+    padding-bottom: 0.50rem;
+}
+
+.Country .form-control{
+    margin: 10px 0px 20px 0px;
+    border: 1px solid rgb(94, 93, 93);
+}
+
+.current-position .form-control{
+    margin: 10px 0px 20px 0px;
+    border: 1px solid rgb(94, 93, 93);
+}
+
+.Education .form-control{
+    margin: 10px 0px 20px 0px;
+    border: 1px solid rgb(94, 93, 93);
+}
+
+.Industry{
+    margin: 12px 0px;
+    padding-bottom: 10px;
+}
+
+.industry-spacing{
+    padding-bottom: 8px;
+}
+
+.Industry .form-control{
+    border: 1px solid rgb(94, 93, 93);
+}
+
+.Contact-info .form-control{
+    border: none;
+    border-bottom: 1px solid rgb(94, 93, 93);
+    border-radius: 0px;
+    padding: .375rem .75rem 0rem 0rem;    
+}
+
+.heading-1{
+    margin: 12px 0px;
+}
+
+.heading-3 {
+    margin: 20px 0px 30px 0px;
+}
+
+.heading-3 button{
+    border: none;
+    background-color: white;
+}
+
+.form-full-names .col-md-8{
+    padding-bottom: 20px;
+}
+
+.Headline-form .form-control{
+    border: 1px solid rgb(94, 93, 93);
+    margin-bottom: 10px;
+}
+
+#personal-mail{
+    margin: 10px 0px 30px 0px;
+}
+
+.messenger-add{
+    padding: 20px 0px 30px 0px;
+}
+
+.floated-rhs .row{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.floated-rhs .col-md-3{ 
+    padding-right: 0px;
+    float: right;
+}
+
+
+#Additional-position-3 {
+    color: rgb(65, 112, 197);
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+}
+
+.form-header{
+    width: 100%;
+    height : 75px;
+    display: flex;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.form-header .row{
+    width: 100%;
+    padding: 20px 5px 10px 40px;
+}
+
+.form-header .col-md-10 p{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.form-header .col-md-2 .close-page-1{
+    font-size: 45px;
+}
+
+.form-header .row{
+    width: 100%;
+    padding: 20px 5px 10px 40px;
+}
+
+.form-header .col-md-2 .btn-primary{
+    float: right;
+    background-color: rgb(2, 96, 184);
+    border-color: rgb(2, 96, 184);
+}
+
+.form-header .col-md-2 .btn{
+    font-size: 1.25rem;
+    padding: 0.25rem 0.80rem;
+}
+
+#form-footer{
+    box-shadow: .125rem 0rem .25rem 0rem rgba(0,0,0,.075);
+}
+
+#apply{
+    float: left;
+}
+
+#experience-body{
+    padding-top: 30px;
+}
+
+#employment-type{
+    padding-bottom: 25px;
+}
+
+#location{
+    padding-bottom: 10px;
+}
+
+#form-control-3 {
+    padding-right: 0px;
+}
+
+.custom-control-2{
+    padding-left: 1.60rem;
+    padding-top: 0.50rem;
+    padding-bottom: 1.50rem;
+}
+
+.custom-control-3{
+    padding-left: 1.60rem;
+    padding-top: 0.50rem;
+    padding-bottom: 0.30rem;
+}
+
+#experience-duration{
+    padding-bottom: 1.0rem;
+}
+
+.update-profile{
+    padding-bottom: 1.75rem;
+}
+
+.col-md-1 >div{
+    padding-top: 18px;
+}
+
+#Headline-experience{
+    padding-bottom: 1.35rem;
+}
+
+.Experience-media{
+    padding: 18px 0px;
+    color: rgb(173, 173, 173);
+}
+
+.Experience-media >div{
+    padding-bottom: 15px;
+
+}
+.Experience-upload{
+    padding-bottom: 50px;
+}
+
+.Experience-upload .col-md-6 .btn{
+    background-color: rgb(2, 96, 184);
+    border-color:  rgb(2, 96, 184);
+    border-radius: .1rem;
+} 
+
+.Experience-upload .col-md-6 .btn2{
+    background-color: white;
+    border-color:  rgb(2, 96, 184);
+    border-radius: .15rem;
+}
+
+.col-md-6 .custom-file-label{
+    height:calc(2.05rem + .75rem + 2px);
+    background-color: rgb(2, 96, 184);
+    border: 2px solid rgb(2, 96, 184);
+    border-radius: .15rem;
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.col-md-6 .custom-file-input:lang(en)~ .custom-file-label::after{
+    content: none;
+}
+
+/*Toggle Switch Begins*/
+.toggle .switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 44px;
+}
+
+.toggle .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(133, 132, 132);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle .slider:before {
+    position: absolute;
+    content: "";
+    height: 36px;
+    width: 36px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+.toggle input:checked + .slider {
+    background-color: #2196F3;
+}
+
+.toggle input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.toggle input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.toggle .slider.round {
+    border-radius: 34px;
+}
+
+.toggle .slider.round:before {
+    border-radius: 50%;
+}
+
+/*Toggle Switch end*/
+
+.toggle .mb-3{
+    max-width: 100%;
+    margin-bottom: 0.00rem!Important;
+    background-color: rgb(226, 226, 226);
+    border-radius: 0px;
+}
+
+.toggle .col-md-1{
+    padding: 40px 0px 0px 35px;
+}
+
+.toggle .card-text{
+    font-size: 1.20rem;
+}
+
+#card-text-header{
+    margin: 0px 0px 15px 0px;
+}
+
+.form-body .school-name{
+    padding: 50px 0px 30px 0px;
+}
+
+.school-name .form-control{
+    border: 1px solid rgb(94, 93, 93);
+}
+
+.school-name .col-md-12 label{
+    padding: 5px 0px 12px 0px;
+}
+
+#degree{
+    padding-top: 10px;
+}
+
+.Description .form-group{
+    margin-bottom: 0rem;
+}
+
+#activities-example p{
+    font-style: italic;
+    color: rgb(173, 173, 173);
+}
+
+.toggle .col-md-9 a{
+    color: rgb(2, 96, 184);
+}
+
+.row select{
+    position: sticky;
+}
+
+#certificate-month{
+    margin: 2px 0px;
+}
+
+/*Footer Special Edit for Licenses & Certs begins*/
+
+.form-header .col-md-3 .btn-primary{
+    float: right;
+    background-color: white;
+    color: rgb(2, 96, 184);
+    border-color: rgb(2, 96, 184);
+}
+
+.form-header .col-md-3 .btn{
+    font-size: 1.25rem;
+    padding: 0.25rem 0.80rem;
+}
+
+.form-header .col-md-1 .btn-primary{
+    float: right;
+    background-color: rgb(2, 96, 184);
+    border-color: rgb(2, 96, 184);
+    padding-left: 0rem;
+}
+
+.form-header .col-md-1 .btn{
+    font-size: 1.25rem;
+    padding: 0.25rem 0.80rem;
+}
+
+.form-header .col-md-3{
+    padding-right: 0rem; 
+}
+
+.form-header .col-md-1{
+    padding-left: 0px;
+}
+
+/*Footer Special Edit for Licenses & Certs ends*/
+
+.form-full-names-2 .col-md-6 label{
+    margin-bottom: 8px;
+}
+
+#Date-volunteering{
+    color: rgb(146, 146, 146);
+}
